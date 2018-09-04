@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-image: url("/Users/jpark/Desktop/web_portfolio/assets/img/backgroundImg.jpg");
+  background-size: cover;
+}
+.backImg {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.profile {
+  width: 30%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 30px 0;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+}
+
+.profileText {
+  margin-bottom: 15px;
+}
+
+.profileText h2 {
+  font-size: 2em;
+  font-weight: 450;
+  /* margin-top: 5px; */
+  /* margin-bottom: 15px; */
+}
+
+.profileText h3 {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.profile-contacts ul {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-contacts ul li {
+  list-style: none;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+i {
+  color: white;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+}
+
+.sudoku {
+  width: 100%;
+  height: 90%;
+  border-radius: 2%;
+  margin: 30px auto;
+}
+
+.devApp {
+  width: 100%;
+  height: 70%;
+  border-radius: 2%;
+  margin: 30px auto;
+}
+
+.searchApp {
+  width: 100%;
+  height: 54%;
+  border-radius: 2%;
+  margin: 30px auto;
+}
+
+.container h1 {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-top: 15px;
+  font-size: 50px;
+  font-weight: bold;
+}
