@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("/Users/jpark/Desktop/web_portfolio/assets/img/backgroundImg.jpg");
+  background-image: url("/assets/img/backgroundImg.jpg");
   background-size: cover;
 }
 .backImg {
