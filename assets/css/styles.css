@@ -96,6 +96,10 @@ i {
   margin: 30px auto;
 }
 
+.container {
+  height: 150%;
+}
+
 .container h1 {
   background-color: rgba(0, 0, 0, 0.4);
   width: 50%;
