@@ -119,10 +119,11 @@ body {
 .projects {
   background: url("../img/projectsbackground.jpg");
   background-size: cover;
+  text-align: center;
   width: 50%;
   height: 100vh;
   overflow: scroll;
-  color: black;
+  color: white;
   border: solid 2px black;
 }
 
